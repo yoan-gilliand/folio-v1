@@ -3,6 +3,9 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import i18nConfig from './i18nConfig';
+import initTranslations from "./i18n";
+import TranslationProvider from "./[locale]/TranslationProvider";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -13,7 +16,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Yoan Gilliand — Software Engineering Student",
   description:
-    "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
+      "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
   generator: "Next.js",
   applicationName: "Yoan Gilliand",
   keywords: [
@@ -46,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Yoan Gilliand — Software Engineering Student",
     description:
-      "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
+        "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
     url: "",
     siteName: "",
     images: [
@@ -64,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yoan Gilliand — Software Engineering Student",
     description:
-      "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
+        "Software Engineering Student, at HEIA, currently not available for work. Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland.",
     creator: "",
     creatorId: "",
     images: [
@@ -91,19 +94,26 @@ export const viewport = {
   colorScheme: "dark",
 };
 
-type RootLayoutProps = {
-  children: ReactNode;
-};
+export function generateStaticParams() {
+  return i18nConfig.locales.map((locale) => ({ locale }));
+}
 
-export default function RootLayout({ children }: RootLayoutProps) {
+const i18nNamespaces = ['translation'];
+
+export default async function RootLayout({children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const { resources } = await initTranslations(locale, i18nNamespaces);
+
   return (
-    <html lang="en">
+      <html lang={locale}>
       <body
-        className={`${syne.className} scroll-smooth scrollbar-thin scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
+          className={`${syne.className} scroll-smooth scrollbar-thin scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
+      <TranslationProvider locale={locale} resources={resources} namespaces={i18nNamespaces}>
         {children}
-        <Analytics />
+      </TranslationProvider>
+      <Analytics />
       </body>
-    </html>
+      </html>
   );
 }

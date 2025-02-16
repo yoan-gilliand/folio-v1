@@ -13,6 +13,16 @@
     "description2": "currently not available for work.",
     "drivenBy": "Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland."
   },
+  "projects": {
+    "matchRace": {
+      "name": "MATCH RACE",
+      "description": "Match Race is a desktop application designed to streamline photo competition organization for Photo Club Fribourg, featuring automated pairing and voting, real-time audience engagement, and a user-friendly interface."
+    },
+    "eParking": {
+      "name": "EPARKING",
+      "description": "eParking is a web platform designed to modernize the management of parking permit requests for HES-SO//FR, featuring interactive forms, secure authentication, and an admin interface for efficient request handling and data management."
+    }
+  },
   "about": {
     "title": "I MAKE CODE EFFORTLESS, WEBSITES SEAMLESS AND EXPERIENCES IMPACTFUL.",
     "description1": "I specialize in full-stack development, building web applications and user-centric solutions for modern businesses. I’m passionate about leveraging the power of technology to solve problems and create seamless digital experiences.",

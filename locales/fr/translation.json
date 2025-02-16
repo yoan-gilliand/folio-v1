@@ -13,6 +13,16 @@
     "description2": "actuellement non disponible pour du travail.",
     "drivenBy": "Animé par l'innovation et la création d'expériences numériques fluides, basé à Fribourg, Suisse."
   },
+  "projects": {
+    "matchRace": {
+      "name": "MATCH RACE",
+      "description": "Match Race est une application de bureau facilitant l’organisation des concours photo du Photo Club Fribourg, avec appariement et vote automatisés, interaction en temps réel et interface intuitive."
+    },
+    "eParking": {
+      "name": "EPARKING",
+      "description": "eParking est une plateforme web modernisant la gestion des demandes de permis de stationnement pour la HES-SO//FR, avec formulaires interactifs, authentification sécurisée et interface d'administration efficace."
+    }
+  },
   "about": {
     "title": "JE RENDS LE CODE INTUITIF, LES SITES FLUIDES ET LES EXPÉRIENCES IMPACTANTES.",
     "description1": "Spécialisé en développement full-stack, je conçois des applications web et des solutions centrées sur l’utilisateur pour les entreprises modernes. Passionné par la technologie, j’aime résoudre des problèmes et créer des expériences numériques harmonieuses.",

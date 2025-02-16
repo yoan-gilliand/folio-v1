@@ -1,5 +1,10 @@
 {
-  "hero" : {
-    "contact" : "ME CONTACTER",
+  "hero": {
+    "contact": "ME CONTACTER",
+    "name": "YOAN GILLIAND",
+    "description1": "Étudiant en ingénierie logicielle, à la",
+    "heia": "HEIA",
+    "description2": "actuellement non disponible pour du travail.",
+    "drivenBy": "Animé par l'innovation et la création d'expériences numériques fluides, basé à Fribourg, Suisse."
   }
 }

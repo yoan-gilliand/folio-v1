@@ -12,5 +12,17 @@
     "heia": "HEIA",
     "description2": "currently not available for work.",
     "drivenBy": "Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland."
+  },
+  "about": {
+    "title": "I MAKE CODE EFFORTLESS, WEBSITES SEAMLESS AND EXPERIENCES IMPACTFUL.",
+    "description1": "I specialize in full-stack development, building web applications and user-centric solutions for modern businesses. I’m passionate about leveraging the power of technology to solve problems and create seamless digital experiences.",
+    "description2": "Currently, I’m a software engineering student at the Haute école d'ingénierie et d'architecture de Fribourg (HEIA-FR), gaining valuable experience in both front-end and back-end development. I'm constantly exploring new technologies, from Node.js and Vue.js to MySQL, ensuring that I stay at the forefront of industry best practices.",
+    "description3": "When I’m not coding, I love collaborating with peers in tech communities, discovering innovative solutions, and keeping up with the latest in UI/UX design. In my free time, I’m often tinkering with personal projects, enjoying time with friends, or diving into new music genres.",
+    "description4": "I’m always looking for exciting opportunities to collaborate and create meaningful applications. Feel free to reach out!",
+    "languages": "Languages",
+    "frameworks": "Frameworks & Libraries",
+    "databases": "Databases",
+    "tools": "Tools",
+    "songRecommendation": "A few songs I can recommend if you're looking for some fresh and hard tunes :)"
   }
 }

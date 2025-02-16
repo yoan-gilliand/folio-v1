@@ -12,5 +12,17 @@
     "heia": "HEIA",
     "description2": "actuellement non disponible pour du travail.",
     "drivenBy": "Animé par l'innovation et la création d'expériences numériques fluides, basé à Fribourg, Suisse."
+  },
+  "about": {
+    "title": "JE RENDS LE CODE INTUITIF, LES SITES FLUIDES ET LES EXPÉRIENCES IMPACTANTES.",
+    "description1": "Spécialisé en développement full-stack, je conçois des applications web et des solutions centrées sur l’utilisateur pour les entreprises modernes. Passionné par la technologie, j’aime résoudre des problèmes et créer des expériences numériques harmonieuses.",
+    "description2": "Actuellement étudiant en ingénierie logicielle à la Haute école d'ingénierie et d'architecture de Fribourg (HEIA-FR), j'acquiers une précieuse expérience en développement front-end et back-end. J’explore en permanence de nouvelles technologies, de Node.js et Vue.js à MySQL, afin de rester à la pointe des meilleures pratiques du secteur.",
+    "description3": "Quand je ne code pas, j’adore collaborer avec d’autres passionnés au sein de communautés tech, découvrir des solutions innovantes et suivre les tendances du design UI/UX. Pendant mon temps libre, je travaille sur des projets personnels, profite de mes amis ou explore de nouveaux genres musicaux.",
+    "description4": "Je suis toujours à la recherche d'opportunités stimulantes pour collaborer et créer des applications impactantes. N’hésitez pas à me contacter !",
+    "languages": "Langages",
+    "frameworks": "Frameworks & Bibliothèques",
+    "databases": "Bases de données",
+    "tools": "Outils",
+    "songRecommendation": "Quelques morceaux que je recommande si vous cherchez du son frais et puissant :)"
   }
 }

@@ -40,5 +40,20 @@
     "description": "J'écris des articles pour renforcer mes connaissances et aider ceux qui pourraient construire quelque chose de similaire.",
     "loading": "Chargement...",
     "error": "Échec de la récupération des articles de blog"
+  },
+  "contact": {
+    "title": "Discutons",
+    "heartIconAlt": "Icône de cœur",
+    "description": "Une question, une proposition, un projet ou envie de collaborer sur quelque chose ?",
+    "emailText": "Envoyez-moi un email",
+    "emailAriaLabel": "Envoyez-moi un email",
+    "githubText": "GITHUB",
+    "githubAriaLabel": "Voir le profil GitHub",
+    "linkedinText": "LINKEDIN",
+    "linkedinAriaLabel": "Voir le profil LinkedIn",
+    "email": {
+      "subject": "Travaillons ensemble !",
+      "body": "Bonjour, nous aimerions que vous travailliez ou collaboriez sur ce projet... Contactez-nous dès que possible."
+    }
   }
 }

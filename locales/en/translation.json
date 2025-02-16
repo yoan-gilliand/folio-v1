@@ -40,5 +40,20 @@
     "description": "I write articles to reinforce my knowledge and help out others who might be building something similar.",
     "loading": "Loading...",
     "error": "Failed to fetch blog posts"
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "heartIconAlt": "Heart Icon",
+    "description": "Got a question, proposal, project, or want to work together on something?",
+    "emailText": "Send me an email",
+    "emailAriaLabel": "Send me an email",
+    "githubText": "GITHUB",
+    "githubAriaLabel": "View GitHub Profile",
+    "linkedinText": "LINKEDIN",
+    "linkedinAriaLabel": "View LinkedIn Profile",
+    "email": {
+      "subject": "Let's work together!",
+      "body": "Hello, I think we need you to work on/collaborate on this particular product... Reach out as soon as you can."
+    }
   }
 }

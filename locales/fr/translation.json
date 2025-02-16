@@ -24,5 +24,11 @@
     "databases": "Bases de données",
     "tools": "Outils",
     "songRecommendation": "Quelques morceaux que je recommande si vous cherchez du son frais et puissant :)"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "J'écris des articles pour renforcer mes connaissances et aider ceux qui pourraient construire quelque chose de similaire.",
+    "loading": "Chargement...",
+    "error": "Échec de la récupération des articles de blog"
   }
 }

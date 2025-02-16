@@ -24,5 +24,11 @@
     "databases": "Databases",
     "tools": "Tools",
     "songRecommendation": "A few songs I can recommend if you're looking for some fresh and hard tunes :)"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "I write articles to reinforce my knowledge and help out others who might be building something similar.",
+    "loading": "Loading...",
+    "error": "Failed to fetch blog posts"
   }
 }

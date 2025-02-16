@@ -1,10 +1,16 @@
 {
+  "navbar": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
   "hero": {
-    "contact": "ME CONTACTER",
+    "contact": "CONTACT ME",
     "name": "YOAN GILLIAND",
-    "description1": "Étudiant en ingénierie logicielle à",
+    "description1": "Software Engineering Student, at",
     "heia": "HEIA",
-    "description2": "actuellement indisponible pour du travail.",
-    "drivenBy": "Passionné par l'innovation et la création d'expériences numériques fluides, basé à Fribourg, Suisse."
+    "description2": "currently not available for work.",
+    "drivenBy": "Driven by innovation and crafting seamless digital experiences, based in Fribourg, Switzerland."
   }
 }

@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "home": "Accueil",
+    "work": "Projets",
+    "about": "À propos",
+    "contact": "Contact"
+  },
   "hero": {
     "contact": "ME CONTACTER",
     "name": "YOAN GILLIAND",
